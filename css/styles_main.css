@@ -1,0 +1,88 @@
+
+h1{
+    font-size: 30px;
+    color: blue;
+    font-family: Arial;
+}
+
+#logo{
+    width: 150px;
+}
+
+#menu{
+    display: flex;                      /* Transformation en flexbox */
+    padding:0;                          /* Suppression des marges internes */
+    background-color: #cccccc;          /* Ajout de la couleur d'arrière-plan */
+    list-style-type: none ;             /* Suppression des puces */
+    justify-content: space-around       /* Alignements des liens dans le menu */
+}
+
+#menu li{
+    list-style-type: none ;         /* Suppression des puces */
+}
+
+#menu a{
+    display:block;                  /* Transformation en block */
+    min-width: 150px;               /* Largeur minimale des liens */
+
+    margin: 0.5rem;                 /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;              /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;             /* Centrage du texte */
+    background-color: #2870ff;      /* Couleur d'arrière-plan */
+    color: #ffffff;                 /* Couleur du texte */
+    text-decoration: none;          /* Suppression du soulignement */
+    border: 3px solid #fff;         /* Ajout d'une bordure */
+    border-radius: 5px;             /* Arrondis des bordures */
+    transition: all 0.4s ;          /* Ajout des effets de transition */
+}
+
+#menu a:hover {
+  background-color: #ffffff;
+  color: #2870ff;
+  border-color: #2870ff;
+}
+
+#home{
+    width: 50px;
+    height:50px;
+
+}
+
+#tmain{
+    font-size: 50px;
+    font-family: Arial;
+    }
+
+
+p{
+    font-size: 20px;
+    color: black;
+    font-family: Arial;
+}
+
+#formules{
+    font-size: 30px;
+    color: black;
+    font-family: Arial;
+}
+
+#creation{
+    font-size: 15px;
+    color: grey;
+    font-style: italic
+}
+
+#nsl{
+    font-size: 20px;
+    color: red;
+}
+
+#val{
+    font-size: 15px;
+    color: red;
+    font-style: italic
+    }
+
+body{
+    background-color: #ddedff;
+}
